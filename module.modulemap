@@ -1,0 +1,5 @@
+module Cassandra [system] {
+	header "/usr/local/include/cassandra.h"
+	link "cassandra"
+	export *
+}
